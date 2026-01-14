@@ -35,6 +35,15 @@
       },
       "description": "Debugging assistance through Klaus, a dramatically irritated AI persona with Eastern European flair who fixes your code while playing imaginary Pong against you.",
       "version": "1.0.0"
+    },
+    {
+      "name": "claudikins-grfp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aMilkStack/claudikins-github-readme-for-perfectionists.git"
+      },
+      "description": "High-quality README creation through dual-AI collaborative analysis. Claude and Gemini analyse your codebase in parallel, research exemplar READMEs, then co-author documentation section by section.",
+      "version": "1.0.0"
     }
   ]
 }
