@@ -44,6 +44,15 @@
       },
       "description": "High-quality README creation through dual-AI collaborative analysis. Claude and Gemini analyse your codebase in parallel, research exemplar READMEs, then co-author documentation section by section.",
       "version": "1.0.0"
+    },
+    {
+      "name": "claudikins-changelog-guru",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/aMilkStack/claudikins-changelog-guru.git"
+      },
+      "description": "Expert knowledge of Claude Code's feature history. Query when features were added, what's in each version, and capability evolution via /changelog.",
+      "version": "1.0.0"
     }
   ]
 }
