@@ -2,8 +2,6 @@
 
 # Claudikins Marketplace
 
-A curated collection of Claude Code plugins and skills.
-
 ## Installation
 
 Add this marketplace to Claude Code:
