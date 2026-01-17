@@ -14,11 +14,11 @@ claude plugins:add https://github.com/elb-pr/claudikins-marketplace
 
 ---
 
-![claudikins-automatic-context-manager](https://raw.githubusercontent.com/elb-pr/claudikins-automatic-context-manager/main/assets/banner.png)
+![claudikins-kernel](https://raw.githubusercontent.com/elb-pr/claudikins-kernel/main/assets/banner.png)
 
-### [claudikins-automatic-context-manager](https://github.com/elb-pr/claudikins-automatic-context-manager)
+### [claudikins-kernel](https://github.com/elb-pr/claudikins-kernel)
 
-Automatic context handoff for Claude Code. When context hits 60%, generates a summary and continues in a fresh session.
+Structured workflow plugin enforcing plan → execute → verify → ship with isolated agents, mandatory checkpoints, and state persistence.
 
 ---
 
@@ -30,6 +30,14 @@ Meta-MCP server consolidating multiple MCPs into 3 context-efficient tools with 
 
 ---
 
+![claudikins-grfp](https://raw.githubusercontent.com/elb-pr/claudikins-github-readme-for-perfectionists/main/assets/banner.png)
+
+### [claudikins-grfp](https://github.com/elb-pr/claudikins-github-readme-for-perfectionists)
+
+High-quality README creation through dual-AI collaborative analysis. Claude and Gemini analyse your codebase in parallel, research exemplar READMEs, then co-author documentation section by section.
+
+---
+
 ![claudikins-klaus](https://raw.githubusercontent.com/elb-pr/claudikins-klaus/main/assets/banner.png)
 
 ### [claudikins-klaus](https://github.com/elb-pr/claudikins-klaus)
@@ -38,11 +46,11 @@ Debugging assistance through Klaus, a dramatically irritated AI persona with Eas
 
 ---
 
-![claudikins-grfp](https://raw.githubusercontent.com/elb-pr/claudikins-github-readme-for-perfectionists/main/assets/banner.png)
+![claudikins-automatic-context-manager](https://raw.githubusercontent.com/elb-pr/claudikins-automatic-context-manager/main/assets/banner.png)
 
-### [claudikins-grfp](https://github.com/elb-pr/claudikins-github-readme-for-perfectionists)
+### [claudikins-automatic-context-manager](https://github.com/elb-pr/claudikins-automatic-context-manager)
 
-High-quality README creation through dual-AI collaborative analysis. Claude and Gemini analyse your codebase in parallel, research exemplar READMEs, then co-author documentation section by section.
+Automatic context handoff for Claude Code. When context hits 60%, generates a summary and continues in a fresh session.
 
 ---
 

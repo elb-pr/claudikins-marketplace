@@ -10,12 +10,12 @@
   },
   "plugins": [
     {
-      "name": "claudikins-automatic-context-manager",
+      "name": "claudikins-kernel",
       "source": {
         "source": "url",
-        "url": "https://github.com/elb-pr/claudikins-automatic-context-manager.git"
+        "url": "https://github.com/elb-pr/claudikins-kernel.git"
       },
-      "description": "Automatic context handoff for Claude Code. When context hits 60%, generates a summary and continues in a fresh session.",
+      "description": "Structured workflow plugin enforcing plan → execute → verify → ship with isolated agents, mandatory checkpoints, and state persistence.",
       "version": "1.0.0"
     },
     {
@@ -28,6 +28,15 @@
       "version": "1.0.0"
     },
     {
+      "name": "claudikins-grfp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/elb-pr/claudikins-github-readme-for-perfectionists.git"
+      },
+      "description": "High-quality README creation through dual-AI collaborative analysis. Claude and Gemini analyse your codebase in parallel, research exemplar READMEs, then co-author documentation section by section.",
+      "version": "1.0.0"
+    },
+    {
       "name": "claudikins-klaus",
       "source": {
         "source": "url",
@@ -37,12 +46,12 @@
       "version": "1.0.0"
     },
     {
-      "name": "claudikins-grfp",
+      "name": "claudikins-automatic-context-manager",
       "source": {
         "source": "url",
-        "url": "https://github.com/elb-pr/claudikins-github-readme-for-perfectionists.git"
+        "url": "https://github.com/elb-pr/claudikins-automatic-context-manager.git"
       },
-      "description": "High-quality README creation through dual-AI collaborative analysis. Claude and Gemini analyse your codebase in parallel, research exemplar READMEs, then co-author documentation section by section.",
+      "description": "Automatic context handoff for Claude Code. When context hits 60%, generates a summary and continues in a fresh session.",
       "version": "1.0.0"
     }
   ]
