@@ -34,6 +34,7 @@ claude plugins:add https://github.com/elb-pr/claudikins-marketplace
 ## Plugin Ecosystem
 
 ```mermaid
+%%{init: {'flowchart': {'curve': 'linear'}}}%%
 flowchart TB
     subgraph core[" "]
         kernel["kernel<br/>(workflow)"]
