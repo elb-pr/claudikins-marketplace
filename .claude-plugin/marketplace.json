@@ -52,7 +52,7 @@
         "url": "https://github.com/elb-pr/claudikins-automatic-context-manager.git"
       },
       "description": "Automatic context handoff for Claude Code. When context hits 60%, generates a summary and continues in a fresh session.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }
