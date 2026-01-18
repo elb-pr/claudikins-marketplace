@@ -16,6 +16,7 @@ A complete toolkit for Claude Code.
 - [Quick Install](#quick-install)
 - [Plugin Ecosystem](#plugin-ecosystem)
 - [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
 - [Plugins](#plugins)
 - [Kernel](#kernel)
 - [Tool Executor](#tool-executor)
@@ -78,6 +79,47 @@ Claude Code is required for all plugins (latest version recommended).
 | grfp          | None (tool-executor strongly recommended for Gemini access) |
 | klaus         | None                                                        |
 | acm           | None                                                        |
+
+## Getting Started
+
+Choose your path based on what you want to accomplish.
+
+### Full Development Workflow
+
+**For:** Users who want structured planning, execution, and shipping.
+
+```bash
+# Install the core workflow with MCP tools and context preservation
+claude plugins:add claudikins-marketplace/kernel
+claude plugins:add claudikins-marketplace/tool-executor
+claude plugins:add claudikins-marketplace/acm
+```
+
+**What you get:** 4-command pipeline (plan, execute, verify, ship), MCP tool access without context bloat, and automatic context preservation for long sessions.
+
+### Documentation Focus
+
+**For:** Users who want high-quality READMEs.
+
+```bash
+# Install the README pipeline with Gemini research
+claude plugins:add claudikins-marketplace/grfp
+claude plugins:add claudikins-marketplace/tool-executor
+```
+
+**What you get:** 5-phase README pipeline (deep-dive, crystal-ball, brain-jam, think-tank, pen-wielding) with Gemini-powered research and creative brainstorming.
+
+### Debugging Sessions
+
+**For:** Users tackling hard bugs.
+
+```bash
+# Install systematic debugging with context preservation
+claude plugins:add claudikins-marketplace/klaus
+claude plugins:add claudikins-marketplace/acm
+```
+
+**What you get:** 8-phase systematic debugging methodology, plus context preservation for long debugging sessions.
 
 ## Plugins
 
