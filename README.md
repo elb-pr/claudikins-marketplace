@@ -14,6 +14,7 @@ A complete toolkit for Claude Code.
 
 - [Quick Install](#quick-install)
 - [Plugin Ecosystem](#plugin-ecosystem)
+- [Prerequisites](#prerequisites)
 - [Plugins](#plugins)
 - [Kernel](#kernel)
 - [Tool Executor](#tool-executor)
@@ -61,6 +62,18 @@ flowchart TB
 ```
 
 **kernel** is the recommended starting point - it orchestrates the full development workflow. **tool-executor** provides MCP infrastructure that enhances grfp's Gemini integration. **acm** preserves context across all plugins. **klaus** pairs well with kernel for debugging sessions.
+
+## Prerequisites
+
+Claude Code is required for all plugins (latest version recommended).
+
+| Plugin        | Requirements                                                |
+| ------------- | ----------------------------------------------------------- |
+| kernel        | `jq`, `git`, `sha256sum`, `find`                            |
+| tool-executor | Node.js 18+, configured MCP servers                         |
+| grfp          | None (tool-executor strongly recommended for Gemini access) |
+| klaus         | None                                                        |
+| acm           | None                                                        |
 
 ## Plugins
 
