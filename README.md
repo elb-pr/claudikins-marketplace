@@ -10,7 +10,8 @@
 
 A complete toolkit for Claude Code.
 
-## Table of Contents
+<details>
+<summary><strong>Table of Contents</strong></summary>
 
 - [Quick Install](#quick-install)
 - [Plugin Ecosystem](#plugin-ecosystem)
@@ -24,6 +25,8 @@ A complete toolkit for Claude Code.
 - [Recommended Combinations](#recommended-combinations)
 - [Contributing](#contributing)
 - [License](#license)
+
+</details>
 
 ## Quick Install
 
