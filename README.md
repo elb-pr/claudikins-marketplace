@@ -83,6 +83,17 @@ Claude Code is required for all plugins (latest version recommended).
 
 Choose your path based on what you want to accomplish.
 
+### Everything
+
+**For:** Users who want the full toolkit.
+
+```bash
+# Install all plugins
+claude plugins:add https://github.com/elb-pr/claudikins-marketplace
+```
+
+**What you get:** All 5 plugins - kernel (workflow), tool-executor (MCP infrastructure), grfp (documentation), klaus (debugging), and acm (context preservation).
+
 ### Full Development Workflow
 
 **For:** Users who want structured planning, execution, and shipping.
