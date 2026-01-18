@@ -30,9 +30,10 @@ A complete toolkit for Claude Code.
 
 ## Quick Install
 
-```bash
-claude plugins:add https://github.com/elb-pr/claudikins-marketplace
-```
+1. Run `/plugins` in Claude Code
+2. Select **Marketplaces** > **Add Marketplace**
+3. Enter `elb-pr/claudikins-marketplace`
+4. Select which plugins you want to install
 
 ## Plugin Ecosystem
 
@@ -87,10 +88,7 @@ Choose your path based on what you want to accomplish.
 
 **For:** Users who want the full toolkit.
 
-```bash
-# Install all plugins
-claude plugins:add https://github.com/elb-pr/claudikins-marketplace
-```
+**Install:** Select all plugins from the marketplace.
 
 **What you get:** All 5 plugins - kernel (workflow), tool-executor (MCP infrastructure), grfp (documentation), klaus (debugging), and acm (context preservation).
 
@@ -98,12 +96,7 @@ claude plugins:add https://github.com/elb-pr/claudikins-marketplace
 
 **For:** Users who want structured planning, execution, and shipping.
 
-```bash
-# Install the core workflow with MCP tools and context preservation
-claude plugins:add claudikins-marketplace/kernel
-claude plugins:add claudikins-marketplace/tool-executor
-claude plugins:add claudikins-marketplace/acm
-```
+**Install:** kernel, tool-executor, acm
 
 **What you get:** 4-command pipeline (plan, execute, verify, ship), MCP tool access without context bloat, and automatic context preservation for long sessions.
 
@@ -111,11 +104,7 @@ claude plugins:add claudikins-marketplace/acm
 
 **For:** Users who want high-quality READMEs.
 
-```bash
-# Install the README pipeline with Gemini research
-claude plugins:add claudikins-marketplace/grfp
-claude plugins:add claudikins-marketplace/tool-executor
-```
+**Install:** grfp, tool-executor
 
 **What you get:** 5-phase README pipeline (deep-dive, crystal-ball, brain-jam, think-tank, pen-wielding) with Gemini-powered research and creative brainstorming.
 
@@ -123,11 +112,7 @@ claude plugins:add claudikins-marketplace/tool-executor
 
 **For:** Users tackling hard bugs.
 
-```bash
-# Install systematic debugging with context preservation
-claude plugins:add claudikins-marketplace/klaus
-claude plugins:add claudikins-marketplace/acm
-```
+**Install:** klaus, acm
 
 **What you get:** 8-phase systematic debugging methodology, plus context preservation for long debugging sessions.
 
