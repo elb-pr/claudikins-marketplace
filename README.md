@@ -10,6 +10,20 @@
 
 A complete toolkit for Claude Code.
 
+## Table of Contents
+
+- [Quick Install](#quick-install)
+- [Plugin Ecosystem](#plugin-ecosystem)
+- [Plugins](#plugins)
+- [Kernel](#kernel)
+- [Tool Executor](#tool-executor)
+- [GRFP](#grfp)
+- [klaus](#klaus)
+- [ACM](#acm)
+- [Recommended Combinations](#recommended-combinations)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Quick Install
 
 ```bash
